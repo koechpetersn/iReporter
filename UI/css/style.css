@@ -1,0 +1,175 @@
+body{
+	font:15px/1.5 Arial,Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f5f5f5;
+}
+.container,.redflag{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+.green{
+	padding-top: 40px;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	color:#228B22;
+
+}
+.red{
+	width:80%;
+	text-align: center;
+	margin:auto;
+	
+	color:#FF6347;
+
+}
+
+.grnrd{
+	padding-top: 40px;
+
+	margin:auto;
+	overflow:hidden;
+	color:#228B22;
+	width:80%;
+	text-align: center;
+	margin:auto;
+
+}
+.sub{
+	color: #ffffff;
+	background-color: #228B22;
+	/*padding: 1em;*/
+	height: 1.5em;
+    font-size: 22px;  
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.danger{
+	color: #ffffff;
+	background-color: #ff0000;
+	/*padding: 1em;*/
+	height: 1.5em;
+    font-size: 22px;  
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top:30px;
+	min-height: 70px;
+	border-bottom:#008B8B 4px solid;
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size: 16px;
+}
+
+header a{
+	float:right;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+
+header #branding{
+	float:left;
+
+}
+header #branding h1{
+	margin:0;
+
+}
+header nav{
+	float:right;
+	margin-top: 10px;
+
+}
+
+
+ #showcase{
+ 	min-height:600px;
+ 	background-color: #008B8B;
+ 	background-size: cover;
+ 	height:546;
+ 	position:relative;
+ 	text-align: center;
+ 	color:#ffffff;
+
+ }
+
+ #showcase h1{
+ 	margin-top:100px;
+ 	font-size:55px;
+ 	margin-bottom:10px;
+ }
+
+ #showcase p{
+ 	font-size: 20px;
+ }
+
+.login{
+	padding-top: 20px;
+	background: #008B8B;
+	border:2px solid #008B8B;
+	border-radius: 5px;
+	height: 350px;
+	margin: 20px auto 0;
+	width: 300px;
+}
+
+#signup{
+	min-height: 400px;
+	text-align: center
+}
+
+.login h1{
+
+
+ 	margin-top:30px;
+ 	font-size:15px;
+ 	width:center;
+ 	margin-bottom:10px;
+ 	text-align: center;
+ }
+
+section a{
+	color:#FF8C00;
+	text-decoration:none;
+	font-size: 16px;
+}
+footer{
+	text-align:center;
+}
+
+section h2{
+	text-align:center;
+}
+.red{
+	color:red;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
