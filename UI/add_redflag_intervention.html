@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content ="width=device-width">
+	<meta name="description" content="Affordable">
+	<meta name="keywords" content="web design">
+	<meta name="author" content="koech">
+    <title>iReporter | Add Records</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1>iReporter</h1>
+				</div>
+			<div>
+				<a href="user_profile.html">Back to dashboard</a>
+			</div>
+		
+		</header>
+
+		
+
+
+
+		<section class="container">
+			<h4>Create a record below</h4>
+
+			<div class="form-control form-input">
+                <label for="record_type">Record Type</label>
+                <br>
+                <select name="record_type" id="record_type">
+                    <option value="red_flag">Red Flag</option>
+                    <option value="intervention">Intervention</option>
+                </select>
+            </div>
+
+			<div>
+					<p>
+               			<p><label >Title</label></p>
+               			<p><input type="text" name="title" placeholder=" e.g Collapsed bridge"></p>
+         			</p>
+         			<p>
+         				<p><label for="location">Location</label></p>
+              			<p><input  name="location" type="text" placeholder=" e.g Muhoroni, Kericho"></p>
+         			</p>
+              
+          	</div>
+
+          	<div>
+  				<p>Add a brief description of the record here</p>
+  				<textarea name="message" rows="3" cols="30"></textarea>
+  				<br>
+  				<label for ="picha">You may upload media to support claims</label>
+  				<br>
+					<span>Photo</span><p><input type="file" id="picha" name="picture" accept="image/*"></p>
+				
+				<label for ="picha"></label>
+					<span>Video</span><p><input type="file" id="video" name="video" accept="video/*"></p>
+  				<br>
+		
+				<section class = container>
+					<input class="sub" type="submit" value="Submit"><br>
+			</section>
+		</section>
+
+</body>
+</html>
